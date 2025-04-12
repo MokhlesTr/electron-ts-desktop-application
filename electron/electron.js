@@ -24,7 +24,7 @@ function createWindow() {
     minWidth: 724,
     frame: true,
     title: "My Cool Desktop App",
-    icon: path.join(__dirname, "../assets/iconCool.ico"),
+    icon: path.resolve(__dirname, "../../startkit/src/assets/iconCool.ico"),
     show: false,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
