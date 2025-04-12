@@ -23,7 +23,7 @@ function createWindow() {
     minHeight: 650,
     minWidth: 724,
     frame: true,
-    title: "My Cool Desktop App",
+    title: "desktopp",
     icon: path.resolve(__dirname, "../../startkit/src/assets/iconCool.ico"),
     show: false,
     webPreferences: {
